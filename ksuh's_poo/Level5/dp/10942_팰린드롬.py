@@ -40,6 +40,14 @@ for _ in range(M):
             res[_] = 1
 print("\n".join(map(str, res)))
 
+x = 0
+for x in range(4):
+    if x == 2:
+        x -= 1
+        break
+    print(x)
+print("x: ", x)
+
 # TC
 # 7
 # 1 2 1 3 1 2 1
