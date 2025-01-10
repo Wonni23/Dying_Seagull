@@ -1,0 +1,8 @@
+A, B = map(int, input().split())
+q, r = A//B, A%B
+
+if :
+	
+
+print(q)
+print(r)
